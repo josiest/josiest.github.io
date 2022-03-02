@@ -1,0 +1,12 @@
+#title-box {
+    display: inline-block;
+}
+
+#name-header {
+    margin-bottom: 0px;
+}
+
+#title-header {
+    margin-top: 0px;
+    text-align: right;
+}
