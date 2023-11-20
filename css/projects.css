@@ -9,3 +9,6 @@ div.project-description {
 p.project-description-text {
     font-size: 30px;
 }
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
