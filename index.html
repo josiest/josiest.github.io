@@ -23,7 +23,8 @@
 </div>
 
 
-<div id="projects-carousel" class="carousel slide" data-ride="carousel">
+<div id="projects-carousel" class="carousel slide"
+     data-ride="carousel" width="100%">
 <!-- Indicators -->
 <ol class="carousel-indicators">
   <li data-target="#projects-carousel" data-slide-to="0" class="active"></li>
@@ -34,12 +35,38 @@
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
     <div class="item active">
+        <div>
         <img src="resources/muncher-example.gif" alt="Muncher Game">
         <img src="resources/pipes-example.gif" alt="Pipes Game">
+
+        <div class="project-description">
+            <p class="project-description-text">
+            <b><a href="https://github.com/josiest/ion">ion</a></b> is a
+            small-scoped library for rapidly prototyping games with SDL,
+            written in C++. Starting as a curiosity of C++ paired with
+            a passion for game development, ion has grown into a small but
+            effective library for churning out fun little arcade games.
+            </p>
+        </div>
+        </div>
     </div>
 
     <div class="item">
+        <div>
         <img src="resources/tess-example.gif" alt="Hex Tiles">
+        <div class="project-description">
+            <p class="project-description-text">
+            <b><a href="https://github.com/josiest/tess">tess</a></b> is a
+            library for tessalating hexagons into grids. It provides basic
+            functionality such as converting hex coordinates to pixel
+            coordinates and vice versa, or calculating a set of hex
+            cooridinates within a radius from a certain point. The library is
+            largely inspired by Amit Patel's
+            <a href="https://www.redblobgames.com/grids/hexagons/">blog post</a>
+            on the matter.
+            </p>
+        </div>
+        </div>
     </div>
 </div>
 

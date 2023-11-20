@@ -1,3 +1,11 @@
 #projects-carousel {
     margin-top: 50px;
 }
+div.project-description {
+    display: inline-block;
+    margin: 15%;
+    margin-top: 70px;
+}
+p.project-description-text {
+    font-size: 30px;
+}
