@@ -1,5 +1,11 @@
 #title-box {
+    margin-top: 50px;
+}
+
+div.header-item {
     display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
 }
 
 #name-header {
@@ -9,4 +15,8 @@
 #title-header {
     margin-top: 0px;
     text-align: right;
+}
+
+#profile-box {
+    display: inline;
 }
