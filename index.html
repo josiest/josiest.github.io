@@ -7,10 +7,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 <div id="title-box">
 <span>
@@ -37,53 +37,87 @@
 </span>
 </div>
 
+<div class="project-section">
+<h2 class="section-name">Unreal Plugins</h2>
+<div class="card-deck mb-3">
+    <div class="card w-25" style="max-width: 18rem;">
+        <div class="card-header">Simple Gameplay Experience</div>
+        <div class="card-body">
+        <p class="card-text">
+        A data-oriented approach to setting up the basics for your game.
+        I copied the idea from the Lyra Starter Project, but this plugin
+        minimizes dependencies and scopes down the feature for smaller
+        projects.
+        </p>
+        </div>
+        <div class="card-footer">
+        <a href="https://github.com/josiest/SimpleGameplayExperience"
+           class="card-link">Source Code</a>
+        </div>
+    </div>
+</div>
+</div>
 
-<div id="projects-carousel" class="carousel slide"
-     data-bs-ride="carousel">
 
-<div class="carousel-inner">
-    <div class="carousel-item active">
-        <div>
-        <img src="resources/muncher-example.gif" alt="Muncher Game">
-        <img src="resources/pipes-example.gif" alt="Pipes Game">
-
-        <div class="project-description">
-            <p class="project-description-text">
-            <b><a href="https://github.com/josiest/ion">ion</a></b> is a
-            small-scoped library for rapidly prototyping games with SDL,
+<div class="project-section">
+<h2 class="section-name">C++ Gameplay Tools</h2>
+<div class="card-deck mb-3">
+    <div class="card w-25">
+        <div class="card-header"><h4 class="card-title">ion</h4></div>
+        <img src="resources/muncher-example.gif" class="card-image-top"
+             alt="a gif of colored squares moving around">
+        <div class="card-body">
+            <p class="card-text">
+            A small-scoped library for rapidly prototyping games with SDL,
             written in C++. Starting as a curiosity of C++ paired with
             a passion for game development, ion has grown into a small but
             effective library for churning out fun little arcade games.
             </p>
         </div>
+        <div class="card-footer">
+            <a href="https://github.com/josiest/ion" class="card-link">
+            Source Code
+            </a>
         </div>
     </div>
 
-    <div class="carousel-item">
-        <div>
-        <img src="resources/tess-example.gif" alt="Hex Tiles">
-        <div class="project-description">
-            <p class="project-description-text">
-            <b><a href="https://github.com/josiest/tess">tess</a></b> is a
-            library for tessalating hexagons into grids. It provides basic
+    <div class="card w-25">
+        <div class="card-header">
+            <h4 class="card-title">tess</h4>
+        </div>
+        <img src="resources/tess-example.gif" class="card-image-top"
+             alt="screenshot of a hexagonal line on a grid">
+
+        <div class="card-body">
+            <p class="card-text">
+            A library for tessalating hexagons into grids. It provides basic
             functionality such as converting hex coordinates to pixel
             coordinates and vice versa, or calculating a set of hex
             cooridinates within a radius from a certain point. The library is
             largely inspired by Amit Patel's
             <a href="https://www.redblobgames.com/grids/hexagons/">blog post</a>
             on the matter.
+
+            A template library for working with hexagonal grids
             </p>
         </div>
+        <div class="card-footer">
+            <a href="https://github.com/josiest/tess" class="card-link">
+            Source Code
+            </a>
         </div>
     </div>
 
-    <div class="carousel-item">
-        <div>
-        <img src="resources/random-walk-maps.png" alt="Maps of Random Walks">
-        <div class="project-description">
-            <p class="project-description-text">
-            <b><a href="https://github.com/josiest/simulacrum">simulacrum</a></b>
-            is a library of tools for procedural content generation. As I've
+    <div class="card w-25">
+        <div class="card-header">
+            <h4 class="card-title">simulacrum</h4>
+        </div>
+        <img src="resources/random-walk-maps.png" class="card-image-top"
+             alt="an array of random walk maps">
+
+        <div class="card-body">
+            <p class="card-text">
+            A library of tools for procedural content generation. As I've
             continued to develop these kinds of tools, I thought it might be
             helpful to include them all in one package, even if they are
             individually modular. Here you can see a series of maps generated by
@@ -91,24 +125,13 @@
             for it to bloom over time.
             </p>
         </div>
+        <div class="card-footer">
+            <a href="https://github.com/josiest/simulacrum" class="card-link">
+            Source Code
+            </a>
         </div>
     </div>
-
 </div>
-
-<!-- Left and right controls -->
-<button class="carousel-control-prev" type="button"
-        data-bs-target="#projects-carousel" data-bs-slide="prev">
-
-  <span class="carousel-control-prev-icon"></span>
-  <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button"
-        data-bs-target="#projects-carousel" data-bs-slide="next">
-
-  <span class="carousel-control-next-icon"></span>
-  <span class="visually-hidden">Next</span>
-</button>
 </div>
 
 </body>

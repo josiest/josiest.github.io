@@ -1,14 +1,10 @@
-#projects-carousel {
-    margin-top: 50px;
-}
-div.project-description {
-    display: inline-block;
-    margin: 15%;
+div.project-section {
+    padding: 100px;
     margin-top: 70px;
 }
-p.project-description-text {
-    font-size: 30px;
-}
-.carousel-control-prev, .carousel-control-next {
-    filter: invert(100%);
+
+
+h2.section-name {
+    text-align: left;
+    padding-bottom: 1rem;
 }
