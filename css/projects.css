@@ -8,3 +8,11 @@ h2.section-name {
     text-align: left;
     padding-bottom: 1rem;
 }
+
+p.blurb {
+    margin-top: 1em;
+}
+
+div.fixed-card {
+    max-width: 350px;
+}
